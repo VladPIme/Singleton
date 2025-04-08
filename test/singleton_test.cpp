@@ -7,9 +7,7 @@
 #include <vector>
 #include "../include/core_singleton.hpp"
 
-/**
- * Test class for singleton verification
- */
+
 class InstrumentedObject {
 public:
     InstrumentedObject() : instance_id_(instance_count_++) {
